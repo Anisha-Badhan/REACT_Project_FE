@@ -58,23 +58,7 @@ export class Posts extends Component {
         return (
             <div>
 
-                <div className="container hero">
-                    <div className="row align-items-center text-center text-md-left">
-                        <div className="col-lg-4">
-                            <h1 className="mb-3 display-3">
-                                Let's be connected
-                            </h1>
-                            <p>
-                                Join with us! Login or Register. Share your moments !!
-                            </p>
-                        </div>
-                        <div className="col-lg-8">
-                            <img src={img1} className="img-fluid" alt="img" />
-                        </div>
-                    </div>
 
-
-                </div>
                 <div className="container hero py-5">
                     <div className="row">
                         <div className="col-md-8 col-xs-12">
