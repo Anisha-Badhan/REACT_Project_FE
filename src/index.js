@@ -19,7 +19,7 @@ setInterval(async () => {
 },60 * 1000)
 
 
-axios.defaults.baseURL = 'http://localhost:3001/api';
+axios.defaults.baseURL = 'process.env.REACT_APP_BACKEND_API';
 
 let userData =  JSON.parse(localStorage.getItem("userData"))
 let token
