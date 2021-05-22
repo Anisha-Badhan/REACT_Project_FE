@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import dotenv from 'dotenv'
 import * as serviceWorker from './serviceWorker';
 import axios from 'axios';
-
-
 import 'bootstrap/dist/css/bootstrap.css';
-
 import 'jquery/dist/jquery.js';
+
+dotenv.config()
 setInterval(async () => {
     axios.get("process.env.REACT_APP_BACKEND_API/test").then(data=>{
         console.log(data)
@@ -19,7 +19,7 @@ setInterval(async () => {
 },60 * 1000)
 
 
-axios.defaults.baseURL = 'process.env.REACT_APP_BACKEND_API';
+axios.defaults.baseURL = process.env.REACT_APP_BACKEND_API;
 
 let userData =  JSON.parse(localStorage.getItem("userData"))
 let token
