@@ -154,10 +154,10 @@ export class SinglePost extends Component {
                                     Confirm delete
                                 </div>
 
-                                <div className="modal-footer">
+                                {/*<div className="modal-footer">
                                     <button type="button" className="btn btn-danger" onClick={()=>this.deletePost(post1._id)}>Delete </button>
                                     <button type="button" className="btn btn-outline-dark" onClick={this.hideModal} data-dismiss="modal">Close</button>
-                                </div>
+                                </div>*/}
                             </Modal>
                             {post}
                         </div>
