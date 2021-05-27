@@ -79,9 +79,13 @@ function ShowPost(props) {
                                 props.content.substring(0, 80)
                             )}...`}
                         </p>
+<<<<<<< HEAD
 {/*
                         <button type = "button" className = "btn-danger" to={"/post/delete/" + props._id}><span>Delete</span></button>
 */}
+=======
+                       {/* <button type = "button" className = "btn-danger" to={"/post/delete/" + props._id}><span>Delete</span></button> */}
+>>>>>>> a5d5bf3b01e45c75a3871755b8af05052b7fd140
 
                     </div>
                 </div>
