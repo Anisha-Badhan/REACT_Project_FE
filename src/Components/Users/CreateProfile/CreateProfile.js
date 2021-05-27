@@ -245,7 +245,7 @@ export class CreatePost extends Component {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="password">Password </label>
+                            <label htmlFor="password">Description </label>
                             <textarea
                                 type='text'
                                 name='bio'

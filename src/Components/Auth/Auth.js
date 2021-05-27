@@ -162,12 +162,11 @@ export class Auth extends Component {
         if (this.state.error.code) {
             iserror = (
                 <>
-                    <div className="container error container-short">
-                        <div className="mar-20">
-                            <h5>Error Code - {this.state.error.code}</h5>
-                            <h4>Error Message - {this.state.error.message}</h4>
-                        </div>
-                    </div>
+                <div className="alert alert-danger">
+                    <strong>Danger!</strong> {this.state.error.message}
+                </div>
+
+
                 </>
             )
         }
