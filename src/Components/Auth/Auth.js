@@ -163,7 +163,7 @@ export class Auth extends Component {
             iserror = (
                 <>
                 <div className="alert alert-danger">
-                    <strong>Danger!</strong> {this.state.error.message}
+                    <strong>Oops!</strong> {this.state.error.message}
                 </div>
 
 
@@ -211,7 +211,7 @@ export class Auth extends Component {
 
                         </div>
 
-                        <div className="form-group">
+                        <div className="form-group" style={{ marginTop: '10px' }}>
                             <button style={{ marginRight: '15px' }}
                                     type='submit'
                                     className="btn btn-primary"
